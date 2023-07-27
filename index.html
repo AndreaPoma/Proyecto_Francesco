@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rancesco - Utiles escolares y de oficina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagenes/iconFrancesco.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <p class="txt-1">Bienvenidos</p>
+
+            <br><br>
+            <p class="txt-2">
+                Una de las nuevas librerias peruanas con su nueva páginas de compras de sus articulos,
+                para que puedas conseguir en cualquier lugar y siempre con la mejor calidad.
+            </p>
+        </div>
+        <form class="form">
+            <h2>INICIA SESIÓN</h2>
+            <p>
+                Ingresa sesión para estar enterado de nuestras nuevas ofertas o participar en grandiosos sorteo,
+                si no estas registrado que esperas para estarlo :D
+            </p>
+            <div class="inputs">
+                <input type="email" class=box placeholder="ingresa tu correo" id="txtemail">
+                <input type="password" class=box placeholder="ingresa tu contraseña" id="txtpassword">
+
+                <a href="pagina.html"><input type="button" value="Ingresar" class="submit" id="btningresar"></a>
+
+                <table>
+                    <td>
+                        <img src="../imagenes/goog.png" id="btnGoogle" width="75px" style="cursor: pointer;">
+                    </td>
+                    <td>
+                        <a style="font-size: 20px;" id="btnregistrar">Registrate</a>
+                    </td>
+                </table>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <scrip src="main.js"></scrip>
+
+</body>
+
+</html>
